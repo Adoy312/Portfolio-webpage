@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #f0f0f0;
+}
+a{
+    color:#f0f0f0;
+}
+a:link{
+    
+    text-decoration: none;
+}
+
+
+
+
+header{
+    width: 100%;
+    
+    background-color: #be3144;
+    height: 8%;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    padding-bottom: 10px;
+    border: 1px solid #be3144;
+}
+
+header > nav ul {
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    
+    
+    
+    color:#f0f0f0;
+
+}
+
+header > nav ul li :hover{
+    border: 1px solid #425f8f;
+    background: #425f8f;
+    padding: 10px;
+}
+header> nav ul li {
+    
+    font-size: 1.7em;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+body{
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+
+
+
+#welcome-section{
+    height: 80%;
+    background: black;
+    color: white;
+    margin-top: 0;
+    border: 1px solid black;
+    padding-top: 58%;
+    padding-left: 20%;
+    
+    background-color: #000;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+
+}
+#lan:link{
+    text-decoration: none;
+}
+
+#welcome-section > h1{
+    font-size: 3.4em;
+    width: 79%;
+    margin-bottom: 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color:#f0f0f0;
+    
+}
+
+#welcome-section > p{
+    font-size: 1.9rem;
+    color: brown;
+    font-weight: lighter;
+    
+}
+
+
+
+#projects > nav ul{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2px;
+    
+    padding-left: 0;
+    
+    
+}
+
+
+#proj{
+    background: #425f8f;
+    
+    padding-top: 15px;
+
+}
+
+#proj > h1 {
+    margin-left: 9px;
+    font-size: 2.3rem;
+    width: 90%;
+    text-align: center;
+    border-bottom: 1px solid white;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    
+    
+}
+
+
+
+#projects > nav ul li {
+    margin-left: 6px;
+    
+    margin-top: 25px;
+    width: 95%;
+}
+#lan > img{
+    width: 100%;
+    height: 14%;
+
+}
+
+#lan> p{
+    
+    color: white;
+    background: #303841;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 10px;
+    padding-top: 19px;
+    font-size: 1.3rem;
+    box-shadow: 1px 1px 2px rgb(0 0 0 / 50%);
+    border-radius: 2px;
+    padding-bottom: 19px;
+    text-align: center;
+    
+}
+
+
+#last{
+    border: 1px solid #303841;
+    
+    padding: 10px 20px;
+    
+    background: #303841;
+    margin-top: 0;
+    margin-bottom: 20%;
+    font-size: 1.4rem;
+    margin-left: 30%;
+    display: inline-block;
+    color: white;
+    border-radius: 5px;
+    
+}
+#last > a :link{
+    text-decoration: none;
+    color: white;
+}
+#last:hover{
+    background-color: #be3144;
+    border: 1px solid #be3144;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+#contact{
+    
+    color: #f0f0f0;
+    background-color: #000;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+    
+    padding-bottom: 17%;
+    padding-top: 13%;
+    text-align: center;
+}
+
+#contact > h1 {
+    width: 70%;
+    margin-left: 20%;
+    margin-bottom: 0;
+    font-size: 2.8rem;
+    font-weight: 700;
+    line-height: 1.4;
+    color: var(--main-white);
+    font-family: 'Raleway', sans-serif;
+    
+}
+#contact > h4{
+    margin-top: 7px;
+    font-weight: lighter;
+    font-size: 1.4rem;
+}
+#info > li img {
+    width: 26px;
+
+}
+#info > li span {
+    margin-left: 5px;
+    
+}
+
+#info > li {
+    font-size: 1.3rem;
+    margin: 15px;
+}
+
+#info > li :hover{
+    position: relative;
+    top: 10px;
+}
+
+#contact > nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+#contact > nav ul li {
+    margin: 6px;
+}
+
+@media screen and (min-width:1100px) {
+
+    header{
+        height: 11%;
+    }
+    header nav ul {
+        display: flex;
+        justify-content: flex-end;
+        
+        margin-bottom: 25px;
+        margin-right: 18px;
+        
+    }
+    header nav ul li {
+        margin-left: 15px;
+        font-size: 1.5rem;
+
+    }
+
+    #welcome-section{
+        
+        height: 69vh;
+        padding-top: 15%;
+        padding-left: 35%;
+    }
+    
+
+    
+
+    #proj > h1 {
+        width: 50%;
+        margin-left: 28%;
+        display: inline-block;
+        margin-top: 7%;
+        
+    }
+
+    header > nav ul li :hover{
+        border: 1px solid #425f8f;
+        background: #425f8f;
+        padding: 20px;
+    }
+
+    #lan > p{
+        width: 96%;
+        padding-right: 4px;
+        border-radius: 2px;
+    }
+    #lan > img{
+        width: 100%;
+        height: 85%;
+        
+    }
+
+    #projects > nav ul li{
+        width: 30%;
+        margin: 15px;
+        
+    }
+    #projects > nav ul{
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 2px;
+        width: 100%;
+        padding-left: 20px;
+        flex-wrap: wrap;
+        
+    }
+
+    #last{
+        text-align: center;
+        
+        margin-left: 44%;
+        margin-bottom: 8%;
+    }
+    
+    #contact{
+
+        padding-bottom: 17%;
+        padding-top: 8%;
+
+    }
+
+    #contact > h1 {
+        width: 60%;
+        font-weight: 800;
+        font-size: 3.7rem;
+    }
+    #info{
+        width: 70%;
+        margin-left: 12%;
+    }
+
+    #info > li {
+        margin: 10px;
+    }
+
+
+}
